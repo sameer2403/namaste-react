@@ -1,32 +1,5 @@
-// React.createElement is an object
-
-/**
- * 
- * <div id="parent">
- *    <div id="child">
- *          <h1>Im H1 tag</h1>
- *     </div>
- * </div>
- * 
- * ReactElement is an object that converts into HTML elemnt that browsers understand
- */
-// const heading = React.createElement(  
-//     "h1",     // props are children + attribute
-//      { id: "heading" }, // attribute
-//       "Hello React"  // children 
-// );
-
-//console.log(heading); // heading is an object here not an h1 tag yet
-
-// const parent = React.createElement(
-//     "div",
-//     {id:"parent"},
-//     React.createElement(
-//         "div",
-//         {id:"child"},
-//         React.createElement("h1",{},"Im H1 Tag")// single child
-//         )
-// );
+import React from "react";
+import  ReactDOM  from "react-dom/client";
 
 /**
  * what if we need more than one h1 element inside "child"
